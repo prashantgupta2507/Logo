@@ -1,0 +1,98 @@
+.logo-div{
+    width: 90vw;
+    height: fit-content;
+    padding-left: 20%;
+    background-color: #ffffff;
+}
+
+.main{
+    position: relative;
+    width: 95%;
+    height: 100%;
+    padding: 5px 15px;
+}
+
+.logo{
+    width: 250px;
+    height: 300px;
+    position: relative;
+    background-color: black;
+    clip-path: polygon(0 0, 
+    20% 0, 
+    30% 70%, 
+    43% 20%, 
+    38% 0, 
+    58% 0, 
+    68% 70%, 
+    81% 0, 
+    86% 0, 
+    65% 100%, 
+    60% 100%,
+    45% 25%,
+    25% 100%,
+    20% 100%);
+}
+
+.stripes-left,
+.stripes-center{
+    position: absolute;
+    width: 80px;
+    height: 5px;
+    background-color: black;
+    top: 0;
+    left: 0;
+}
+
+.stripes-center{
+    left: 100px;
+    width: 70px;
+}
+
+.stripes-right{
+    position: absolute;
+    width: 55px;
+    height: 5px;
+    background-color: black;
+    top: 0;
+    left:200px;
+}
+
+.left-inner-stripe{
+    width: 5px;
+    height: 100%;
+    background-color: #ffffff;
+    position: absolute;
+    top: 15px;
+    left: 20%;
+    transform: rotate(-10deg);
+}
+
+.right-inner-stripe{
+    width: 5px;
+    height: 100%;
+    background-color: #ffffff;
+    position: absolute;
+    top: 15px;
+    left: 58%;
+    transform: rotate(-10deg);
+}
+
+.logo-name > h1{
+    letter-spacing: 30px;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-left: -90px;
+}
+
+.bottom-line{
+    width: 275px;
+    height: 5px;
+    background-color: black;
+}
+
+.since-date{
+    letter-spacing:5px;
+    text-transform: uppercase;
+    margin-left: 45px;
+    margin-top: -10px;
+}
